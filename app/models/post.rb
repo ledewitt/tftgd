@@ -57,10 +57,17 @@ module Blog
 
       def html
         @html ||= begin
-          renderer = Redcarpet::Markdown.new(
-                         Redcarpet::Render::HTML, 
-                         :tables => true)
-          renderer.render(markdown)
+          # TODO decide on Markdown renderer
+          # renderer = Redcarpet::Markdown.new(
+          #               Redcarpet::Render::HTML, 
+          #               :tables => true,
+          #               :parse_block_html => true)
+          #renderer.render(markdown)
+
+          # TODO do I need table tag to make table appear.
+          Markdown.new(
+             markdown,
+             :tables => true).to_html
         end
       end
 
