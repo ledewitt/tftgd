@@ -41,12 +41,14 @@
 .grid-blog-entry {
   background-color: orange
   grid-template-columns: 1fr 1fr 1fr
+  grid-template-rows: 100px 50px 100px /* 1fr 1fr 1fr */
   gird-gap: 1em
 }
 
 .grid-score-entry {
-  /* background-color: gray */
+  grid-column: 2/1
   table {
+    place-self: center
     background-color: gray
   }
 }

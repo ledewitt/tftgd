@@ -1,5 +1,4 @@
 <% @posts.each do |post| %>
-  <div class="post <%= post.slug %>">
     <header>
       <h2>
         <a href="/<%= post.slug %>"><%= post.title %></a>
@@ -23,7 +22,6 @@
     <div class="body">
       <%== post.render %>
     </div>
-  </div>
 <% end %>
 
 <% content_for :side_bar do %>
