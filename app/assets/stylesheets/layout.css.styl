@@ -3,6 +3,10 @@
 
 @import './mixins'
 
+body {
+  font-family: "Tahoma"
+}
+
 .grid-wrapper {
   display: grid
   grid-template-columns: 1fr 3fr
@@ -28,7 +32,7 @@
   background-color: yellow
   grid-column: 2
   table {
-    margin: 50px
+    margin: 1em
     float: left
   }
 }
@@ -41,16 +45,27 @@
 .grid-blog-entry {
   background-color: orange
   grid-template-columns: 1fr 1fr 1fr
-  grid-template-rows: 100px 50px 100px /* 1fr 1fr 1fr */
-  gird-gap: 1em
 }
 
 .grid-score-entry {
   grid-column: 2/1
+
   table {
     place-self: center
     background-color: gray
+    border-spacing: 1em 5px
+    border-style: solid
+    border-width: 5px
+    border-color: red
+    border-collapse: collapse
+    th {
+      padding: 15px
+      border: solid
+      /* border-width: 5px */
+      border-color: blue 
+    }
   }
+  
 }
 
 header {
