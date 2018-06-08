@@ -5,7 +5,7 @@
 <div class="grid-score-entry" markdown="1">
 
 | Place | Player | Score |
-| :---: | --- | ---: |
+| :---: | --- | :---: |
 | 1 | Luke | 3 Gold 2 Silver $34 |
 | 2 | Eric | 3 Gold 1 Silver $0 |
 | 3 | Scott | 2 Gold 3 Silver $38 |

@@ -5,7 +5,7 @@
 <div class="grid-score-entry" markdown="1">
 
 | Place | Player | Score |
-| :---: | --- | ---: |
+| :---: | --- | :---: |
 | 1 | Colten | 30 |
 | 2 | Frank | 26 |
 | 3 | Eric | 22 |

@@ -13,7 +13,7 @@ The 2018 campaign of G4N started with a game of Mission Red Planet.  The main me
   Final scores:
 
 | Place | Player | Score |
-| :---: | --- | ---: |
+| :---: | --- | :---: |
 | 1 | Luke | 38 |
 | 2 | Garrett | 26 |
 | 3 | Colten | 25 |

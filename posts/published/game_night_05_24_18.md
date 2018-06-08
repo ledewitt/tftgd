@@ -5,7 +5,7 @@
 <div class="grid-score-entry" markdown="1">
 
 | Place | Player | Score |
-| :---: | --- | ---: |
+| :---: | --- | :---: |
 | 1 | Eric | 92 |
 | 2 | Garrett | 79 |
 | 2 | Luke | 79 |

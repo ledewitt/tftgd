@@ -9,7 +9,7 @@ For the last game night of the year, five knights convened for a night of auctio
 Scores:
 
 | Place | Player | Score |
-| :---: | --- | ---: |
+| :---: | --- | :---: |
 | 1 | Nate (Grey) | 94 |
 | 2 | Luke (White) | 89 |
 | 3 | Scott (Purple) | 83 |
@@ -21,7 +21,7 @@ Scores:
 Scores:
 
 | Place | Player | Score |
-| :---: | --- | ---: |
+| :---: | --- | :---: |
 | 1 | Nate | 4 |
 | 2 | Luke | 2 |
 | 3 | Frank | 0 |
