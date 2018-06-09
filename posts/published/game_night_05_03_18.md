@@ -4,7 +4,7 @@
 
 <div class="grid-score-entry" markdown="1">
 
-| | Player | Score |
+| | Knight | Score |
 | :---: | --- | :---: |
 | 1 | Colten | 30 |
 | 2 | Frank | 26 |
