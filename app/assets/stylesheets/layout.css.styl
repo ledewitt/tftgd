@@ -2,7 +2,13 @@
 //= require_tree .
 
 @import './mixins'
+
+/* X Wing Content Stuff? */
 @import url('https://fonts.googleapis.com/css?family=Audiowide')
+
+@import url('https://fonts.googleapis.com/css?family=Syncopate')
+@import url('https://fonts.googleapis.com/css?family=Suez One')
+
 
 body {
   font-family: "Verdana"
@@ -17,6 +23,8 @@ body {
 
 .grid-header {
   background-color: purple
+  font-family: "Syncopate"
+  font-size: 1.5em
   grid-column: span2/1
   text-align: center
   a {
@@ -50,7 +58,6 @@ body {
 
 .grid-score-entry {
   grid-column: 2/1
-  font-family: "Audiowide"
 
   table {
     place-self: center
@@ -61,6 +68,7 @@ body {
     border-color: red
     border-collapse: collapse
     th {
+      font-family: "Suez One"
       padding: 15px
       border: solid
     }
