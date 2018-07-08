@@ -4,14 +4,9 @@
 @import './mixins'
 
 /* X Wing Content Stuff? */
-@import url('https://fonts.googleapis.com/css?family=Audiowide')
-
-@import url('https://fonts.googleapis.com/css?family=Syncopate')
-@import url('https://fonts.googleapis.com/css?family=Suez One')
-
 
 body {
-  font-family: "Verdana"
+  font-family: "Arial"
 }
 
 .grid-wrapper {
@@ -23,12 +18,13 @@ body {
 
 .grid-header {
   background-color: purple
-  font-family: "Syncopate"
+  font-family: fantasy
   font-size: 1.5em
   grid-column: span2/1
   text-align: center
   a {
     color: white
+    text-decoration: none
   }
 }
 
@@ -52,6 +48,7 @@ body {
 }
 
 .grid-blog-entry {
+  min-height: 273px
   background-color: orange
   grid-template-columns: 1fr 1fr 1fr
 }
@@ -68,19 +65,46 @@ body {
     border-color: red
     border-collapse: collapse
     th {
-      font-family: "Suez One"
       padding: 15px
       border: solid
     }
     td {
       padding: 5px
-      border:solid
+      border: solid
     }
   }
 }
 
 header {
   text-align: center
+}
+
+.pagination {
+  text-align: right
+  border: none
+
+  .wrap {
+    padding: 20px 40px 25px 30px
+  }
+
+  .button {
+    border: 2px solid #333333
+    font-weight: 600
+    color: #333333
+    padding: 0 15px
+    border-radius: 20px
+    display: inline-block
+    height: 35px
+    line-height: 33px
+    text-transform: uppercase
+    font-size: 15px
+    text-decoration: none
+    margin-left: 15px
+
+    .fa {
+      margin-left: 2px
+    }
+  }
 }
 
 /*
