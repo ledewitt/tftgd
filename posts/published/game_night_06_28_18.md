@@ -14,7 +14,7 @@
 
 </div>
 
-On this game night, five game knights found themselves digging in the ground for gold during the California gold rush.  [Fool's Gold](https://boardgamegeek.com/boardgame/132758/fools-gold) is a game by Joshua Balvin about finding gold in them there hills, specifically the Sierra Nevada gold fields.
+On this game night, five game knights found themselves digging in the ground for gold during the California gold rush.  [Fool's Gold](https://boardgamegeek.com/boardgame/132758/fools-gold) is a game by Joshua Balvin about finding gold in them there hills, specifically the Sierra Nevada gold fields in the years of 1849 to 1853.
 
 In this game there are five mines that the players will try to wring as much gold from as possible.  These mines in game terms are decks of cards; each mine/deck has a fixed amount of gold, silt, gem, and hazard cards.  As the players mine away the gold and the gems the silt and hazard cards are reshuffled into the deck meaning that mining at the beginning of the game will yield better results but as the years/game turns pass it gets harder and harder to pull the valuable mineral from the ground because there isn't as much left.
 
