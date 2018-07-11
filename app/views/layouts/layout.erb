@@ -40,7 +40,26 @@
       </div>
 
       <div class="grid-right">
-          <%== yield %>
+        <div class="navigation-bar"> 
+          <div class="pagination">
+            <div class="wrap">
+              <% if paginate_previous? %>
+                <a class="button" href="<%= paginate_previous_url %>">
+                  <i class="fa fa-long-arrow-left"></i>
+                  Previous
+                </a>
+              <% end %>
+        
+              <% if paginate_next?(@posts) %>
+                <a class="button" href="<%= paginate_next_url %>">
+                  Next
+                  <i class="fa fa-long-arrow-right"></i>
+                </a>
+              <% end %>
+            </div>
+          </div>
+        </div>
+        <%== yield %>
       </div>
 
       <div class="grid-footer">  
