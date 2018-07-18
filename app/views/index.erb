@@ -31,3 +31,23 @@
 <% content_for :footer do %>
   footer
 <% end %>
+
+<% content_for :navigation_bar do %>
+  <div class="pagination">
+    <div class="wrap">
+      <% if paginate_previous? %>
+        <a class="button" href="<%= paginate_previous_url %>">
+          <i class="fa fa-long-arrow-left"></i>
+          Previous
+        </a>
+      <% end %>
+  
+      <% if paginate_next?(@posts) %>
+        <a class="button" href="<%= paginate_next_url %>">
+          Next
+          <i class="fa fa-long-arrow-right"></i>
+        </a>
+      <% end %>
+    </div>
+  </div>
+<% end %>
