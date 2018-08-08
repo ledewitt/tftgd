@@ -1,8 +1,20 @@
 module Blog
   module Routes
-    class Posts < Base
+    class Entries < Base
       error Models::NotFound do
         error 404
+      end
+
+      get '/entry/new' do
+        erb :new_entry
+      end
+
+      post '/entry/create' do
+        p params
+        entry = Entry.new(params[:entry])
+        p entry
+        entry.save
+        erb :new_entry
       end
 
       get '/apple-touch-icon*' do

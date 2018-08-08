@@ -3,6 +3,6 @@ module Blog
     autoload :Assets, 'app/routes/assets'
     autoload :Base, 'app/routes/base'
     autoload :Static, 'app/routes/static'
-    autoload :Posts, 'app/routes/posts'
+    autoload :Entries, 'app/routes/entries'
   end
 end

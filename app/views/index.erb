@@ -1,13 +1,13 @@
 <% @posts.each do |post| %>
     <header>
       <h2>
-        <a href="/<%= post.slug %>"><%= post.title %></a>
+        <a href="/<%= post.id %>"><%= post.title %></a>
       </h2>
 
-      <% if post.date %>
-        <time datatime="<%= post.date.to_s %>">
-          <a href="/<%= post.slug %>">
-            <%= post.date.to_s(:short_ordinal) %>
+      <% if post.date_time %>
+        <time datatime="<%= post.date_time.to_s %>">
+          <a href="/<%= post.id %>">
+            <%= post.date_time.to_s(:short_ordinal) %>
           </a>
         </time>
       <% end %>

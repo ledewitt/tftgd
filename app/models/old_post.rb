@@ -2,7 +2,7 @@ require 'pathname'
 
 module Blog
   module Models
-    class Post
+    class OldPost
       def self.path
         Pathname(App.settings.root) + 'posts'
       end

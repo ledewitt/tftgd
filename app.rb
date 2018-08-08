@@ -29,6 +29,8 @@ module Blog
       set :root, Dir.pwd
       set :views, 'app/views'
 
+      set :database, "sqlite3:tftbgdblogthing.sqlite3"
+
       disable :method_override
       disable :static
     end
@@ -42,7 +44,7 @@ module Blog
       use Routes::Assets
     end
 
-    use Routes::Posts
+    use Routes::Entries
   end
 end
 
