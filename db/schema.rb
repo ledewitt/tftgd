@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20180718014350) do
 
-  create_table "posts", force: true do |t|
+  create_table "entries", force: true do |t|
     t.string   "title"
     t.text     "body"
     t.string   "author_name"

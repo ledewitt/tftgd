@@ -1,6 +1,6 @@
 class CreatePostsTable < ActiveRecord::Migration
   def change
-    create_table :posts do |t|
+    create_table :entries do |t|
       t.string :title
       t.text :body
       t.string :author_name
