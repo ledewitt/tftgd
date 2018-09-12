@@ -8,7 +8,7 @@ class CreatePostsTable < ActiveRecord::Migration
       t.timestamps null: false
     end
     
-    create_table :sessions do |t|
+    create_table :game_plays do |t|
       t.datetime :date_time
       t.text :score_board
       t.string :game

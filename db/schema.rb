@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20180718014350) do
     t.datetime "updated_at",  null: false
   end
 
-  create_table "sessions", force: true do |t|
+  create_table "game_plays", force: true do |t|
     t.datetime "date_time"
     t.text     "score_board"
     t.string   "game"

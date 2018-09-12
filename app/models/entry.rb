@@ -4,7 +4,7 @@ module Blog
   module Models
     class Entry < ActiveRecord::Base
 
-      has_many :sessions
+      has_many :game_plays
 
       def self.paginate(number = 0, limit = 1)
         page = number * limit

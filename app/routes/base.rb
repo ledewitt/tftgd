@@ -28,7 +28,7 @@ module Blog
         error 404
       end
 
-      get '/entry/:entry_id/session/new' do
+      get '/entry/:entry_id/game_play/new' do
         entry = Entry.find(params[:entry_id])
       end
 
@@ -42,7 +42,7 @@ module Blog
         p entry
         entry.save
         erb :new_entry
-        # TODO erb redirect to a "Want to add a session type page?"
+        # TODO erb redirect to a "Want to add a game play type page?"
       end
 
       get '/apple-touch-icon*' do

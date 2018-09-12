@@ -2,7 +2,7 @@ require 'pathname'
 
 module Blog
   module Models
-    class Session < ActiveRecord::Base
+    class Game_Play < ActiveRecord::Base
 
       belongs_to :entry
       
