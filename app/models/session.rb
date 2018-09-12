@@ -4,7 +4,7 @@ module Blog
   module Models
     class Session < ActiveRecord::Base
 
-      belongs_to :post
+      belongs_to :entry
       
     end
   end

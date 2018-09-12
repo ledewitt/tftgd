@@ -38,13 +38,7 @@ module Blog
     use Rack::Deflater
     use Rack::Standards
 
-    use Routes::Static
-
-    unless settings.production?
-      use Routes::Assets
-    end
-
-    use Routes::Entries
+    use Routes::Base
   end
 end
 

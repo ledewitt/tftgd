@@ -4,6 +4,7 @@ class CreatePostsTable < ActiveRecord::Migration
       t.string :title
       t.text :body
       t.string :author_name
+      t.datetime :date_time
       t.timestamps null: false
     end
     

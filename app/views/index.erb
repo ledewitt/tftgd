@@ -1,3 +1,6 @@
+<%== bullshit("Howdy") %>
+
+
 <% @posts.each do |post| %>
     <header>
       <h2>
@@ -12,9 +15,9 @@
         </time>
       <% end %>
 
-      <% if post.author %>
+      <% if post.author_name %>
         <h3 class="author">
-          by <%= post.author %>
+          by <%= post.author_name %>
         </h3>
       <% end %>
     </header>

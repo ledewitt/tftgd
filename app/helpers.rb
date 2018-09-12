@@ -1,5 +1,10 @@
 module Blog
   module Helpers
+
+    def bullshit(shit)
+      "<b>#{shit}</b>"
+    end
+
     def title
       value = yield_content(:title)
       value.blank? ? 'Blog' : value

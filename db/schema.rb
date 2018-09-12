@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20180718014350) do
     t.string   "title"
     t.text     "body"
     t.string   "author_name"
+    t.datetime "date_time"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
