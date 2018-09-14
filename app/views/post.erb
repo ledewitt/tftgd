@@ -1,14 +1,9 @@
 <% content_for :title do %><%= @entry.title %><% end %>
-
-I think this code is dead.
-
 <div class="post <%= @entry.id %>">
-
   <header>
     <h2>
       <a href="/<%= @entry.id %>"><%= @entry.title %></a>
     </h2>
-
     <% if @entry.date_time %>
       <time datatime="<%= @entry.date_time.to_s %>">
         <a href="/<%= @entry.id %>">
@@ -16,15 +11,11 @@ I think this code is dead.
         </a>
       </time>
     <% end %>
-
     <% if @entry.author_name %>
       <h3 class="author_name">
         by <%= @entry.author_name %>
       </h3>
     <% end %>
   </header>
-
-  <div class="body">
-    <%== @entry.render %>
-  </div>
+  <%== @entry.render %>
 </div>

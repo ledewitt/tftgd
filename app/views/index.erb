@@ -1,6 +1,4 @@
-<%== bullshit("Howdy") %>
-
-
+<%= bullshit("Howdy") %>
 <% @posts.each do |post| %>
     <header>
       <h2>
@@ -23,14 +21,12 @@
     </header>
 
     <div class="grid-blog-entry">
-      <%== post.render %>
+      <%= post.render %>
     </div>
 <% end %>
-
 <% content_for :side_bar do %>
   sidebar
 <% end %>
-
 <% content_for :footer do %>
   footer
 <% end %>

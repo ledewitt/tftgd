@@ -7,3 +7,4 @@ keys
 *.swp
 /log
 *.sqlite3
+.ruby-version
