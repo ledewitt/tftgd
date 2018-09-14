@@ -33,8 +33,8 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     concurrent-ruby (1.0.5)
-    daemons (1.1.9)
-    dalli (2.7.0)
+    daemons (1.2.6)
+    dalli (2.7.8)
     eco (1.0.0)
       coffee-script
       eco-source
@@ -47,8 +47,8 @@ GEM
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     iniparser (0.1.0)
-    json (1.8.1)
-    kgio (2.9.2)
+    json (1.8.6)
+    kgio (2.11.2)
     kramdown (1.16.2)
     logutils (0.6.1)
     markdown (1.2.0)
@@ -68,7 +68,7 @@ GEM
     rack-standards (0.0.1)
     rack-test (0.6.2)
       rack (>= 1.0)
-    raindrops (0.13.0)
+    raindrops (0.19.0)
     rake (10.2.1)
     redcarpet (3.1.1)
     rubyzip (1.2.1)
@@ -104,12 +104,10 @@ GEM
     tilt (1.4.1)
     tzinfo (1.2.4)
       thread_safe (~> 0.1)
-    uglifier (2.5.0)
-      execjs (>= 0.3.0)
-      json (>= 1.8.0)
-    unicorn (4.8.2)
+    uglifier (4.1.19)
+      execjs (>= 0.3.0, < 3)
+    unicorn (5.4.1)
       kgio (~> 2.6)
-      rack
       raindrops (~> 0.7)
     yui-compressor (0.12.0)
 
