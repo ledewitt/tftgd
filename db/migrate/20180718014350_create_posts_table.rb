@@ -14,6 +14,7 @@ class CreatePostsTable < ActiveRecord::Migration
       t.string :game
       t.string :game_bgg_link
       t.timestamps null: false
+      t.belongs_to :entry, index: true
     end
   end
 end

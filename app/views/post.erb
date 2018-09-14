@@ -16,6 +16,9 @@
         by <%= @entry.author_name %>
       </h3>
     <% end %>
+    <% if ENV['author'] == 'enabled' %>
+      Hello from my secure app.
+    <% end %>
   </header>
   <%== @entry.render %>
 </div>

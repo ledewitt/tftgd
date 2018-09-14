@@ -37,11 +37,9 @@ module Blog
       end
 
       post '/entry/create' do
-        p params
-        entry = Entry.new(params[:entry])
-        p entry
-        entry.save
-        erb :new_entry
+        @entry = Entry.new(params[:entry])
+        @entry.save
+        erb :post
         # TODO erb redirect to a "Want to add a game play type page?"
       end
 

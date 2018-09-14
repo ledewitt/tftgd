@@ -29,6 +29,9 @@ ActiveRecord::Schema.define(version: 20180718014350) do
     t.string   "game_bgg_link"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+    t.integer  "entry_id"
   end
+
+  add_index "game_plays", ["entry_id"], name: "index_game_plays_on_entry_id"
 
 end
