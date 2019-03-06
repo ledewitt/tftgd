@@ -58,7 +58,7 @@ module Blog
 
       get '/page/:number' do
         number = Integer(params[:number])
-        @posts = Post.paginate(number)
+        @posts = Entry.paginate(number)
 
         erb :index
       end

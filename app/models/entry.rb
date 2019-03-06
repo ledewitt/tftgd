@@ -8,7 +8,7 @@ module Blog
 
       def self.paginate(number = 0, limit = 1)
         page = number * limit
-        all[page..(page + limit)] || []
+        all[page...(page + limit)] || []
       end
 
       def render

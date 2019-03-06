@@ -7,7 +7,9 @@ $: << File.expand_path('../', __FILE__)
 $: << File.expand_path('../lib', __FILE__)
 
 # Require base
-require 'sinatra/base'
+require 'sinatra'
+require 'sinatra/activerecord'
+
 require 'active_support/core_ext/string'
 require 'active_support/core_ext/array'
 require 'active_support/core_ext/hash'

@@ -1,6 +1,4 @@
-#!/usr/bin/env rake
-
-require 'sinatra/activerecord/rake'
+require 'sinatra/activerecord'
 require './app'
 
 task :app do

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+ssh ${LOGNAME}@${SERVER_IP} 'cd tftgd && git pull'
