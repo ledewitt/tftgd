@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
+#this is my line of documentation. It is self-documenting documentation
 ssh ${LOGNAME}@${SERVER_IP} 'cd tftgd && git pull'
