@@ -10,6 +10,10 @@ module Blog
       value.blank? ? 'Blog' : value
     end
 
+    def test_flag
+      ENV['test_flag'] ? '-test' : ''
+    end
+
     def url
       request.url
     end
