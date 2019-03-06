@@ -1,0 +1,12 @@
+Hello I will be a game played page.
+
+<h1> Game Play Entry Thingy. </h1>
+<form action="/new_game_play" method="POST">
+
+  Game:<input name="game_play[game]"><br>
+  BGG Link:<input name="game_play[game_bgg_link]"><br>
+  Date:<input type="date" name="game_play[date_time]"><br>
+  Score_Board:<textarea rows="17" cols="42" name="game_play[score_board]"> </textarea><br>
+  <input type="hidden" name="entry_id" value="<%= @entry.id %>"> 
+  <input type="submit" value="Submit">
+</form>
