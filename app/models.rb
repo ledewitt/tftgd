@@ -3,9 +3,6 @@ module Blog
     class NotFound < StandardError; end
 
     autoload :Entry, 'app/models/entry'
-    autoload :Author, 'app/models/author'
-    autoload :Player, 'app/models/player'
-    autoload :Play, 'app/models/play'
-    autoload :Game, 'app/models/game'
+    autoload :GamePlay, 'app/models/game_play'
   end
 end

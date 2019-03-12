@@ -18,6 +18,10 @@
     <% end %>
     <% if ENV['author'] == 'enabled' %>
       Hello from my secure app.
+      <!--- Build a link that allows new game play. --->
+      <a href="/new_game_play/<%= @entry.id %>">
+        Add Game Play
+      </a>
     <% end %>
   </header>
   <%== @entry.render %>
