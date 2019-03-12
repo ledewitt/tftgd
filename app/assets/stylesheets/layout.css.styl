@@ -44,11 +44,25 @@ body {
 }
 
 .grid-left {
+  background-color: #808080
+  grid-column: 1
+}
+
+.grid-left-test {
   background-color: green
   grid-column: 1
 }
 
 .grid-right { 
+  background-color: #808080
+  grid-column: 2
+  table {
+    margin: 1em
+    float: left
+  }
+}
+
+.grid-right-test { 
   background-color: yellow
   grid-column: 2
   table {
@@ -57,16 +71,27 @@ body {
   }
 }
 
-.navigation-bar {
+.navigation-bar-test {
   background-color: cyan
 }
 
 .grid-footer {
+  background-color: #808080
+  grid-column: span2/1
+}
+
+.grid-footer-test {
   background-color: blue
   grid-column: span2/1
 }
 
 .grid-blog-entry {
+  min-height: 273px
+  background-color: #808080
+  grid-template-columns: 1fr 1fr 1fr
+}
+
+.grid-blog-entry-test {
   min-height: 273px
   background-color: orange
   grid-template-columns: 1fr 1fr 1fr
