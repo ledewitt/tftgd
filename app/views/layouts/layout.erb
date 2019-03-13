@@ -23,9 +23,9 @@
 </head>
 <body>
 
-    <div class="grid-wrapper">
+    <div class='grid-wrapper'>
       
-      <div class="grid-header">  
+      <div class='grid-header<%= test_flag %>'>  
         <h1>
           <a class="blog" href="/">
             Tales From the Board Gaming Den
@@ -33,20 +33,20 @@
         </h1>
       </div>
 
-      <div class="grid-left">
+      <div class="grid-left<%= test_flag %>">
         <article class="something">
           <%== yield_content :side_bar %>
         </article>
       </div>
 
-      <div class="grid-right">
-        <div class="navigation-bar"> 
+      <div class="grid-right<%= test_flag %>">
+        <div class="navigation-bar<%= test_flag %>"> 
           <%== yield_content :navigation_bar %>
         </div>
         <%== yield %>
       </div>
 
-      <div class="grid-footer">  
+      <div class="grid-footer<%= test_flag %>">  
         <h1>
           I'm the footer!
         </h1>
