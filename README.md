@@ -18,21 +18,20 @@ Demo here http://sinatra-example-blog.herokuapp.com
 
 ## Pre-Install
 
-    brew install memcached
-    brew services start memcached
+  brew install memcached
+  brew services start memcached
 
 ## Running
 
-    bundle install
-    thin start
+  bundle install
+  bundle exec thin start
 
-## Heroku 123
+### Special instructions
 
-    git clone git@github.com:maccman/sinatra-blog.git
-    cd sinatra-blog
+The CSS has duplicate entries for most of the site, which will cause obvious
+color changes.  This should help point out how things move around, when the site
+is edited.  To enable this, set an environment variable called 'test_flag'.
 
-    heroku create myblog
-    heroku labs:enable user-env-compile
-    heroku addons:add memcachier:dev
+Example:
 
-    git push heroku master
+`test_flag=hi bundle exec thin start`
